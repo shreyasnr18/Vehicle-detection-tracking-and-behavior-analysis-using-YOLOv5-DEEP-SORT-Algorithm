@@ -1,0 +1,47 @@
+# Videos
+*.avi
+*.mp4
+
+# Model weights
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated outputs
+frames_output/
+debug_frames/
+
+# Dataset
+train/images/
+train/labels/
+train/*.cache
+train/*.npy
+
+valid/images/
+valid/labels/
+
+# YOLO source code
+yolov5/
+
+# Virtual environments
+venv/
+.venv/
+# YOLO repository
+yolov5/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
