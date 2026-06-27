@@ -8,7 +8,7 @@ import os, sys
 # -------------------------
 # CONFIG - change if needed
 # -------------------------
-VIDEO_PATH = "yolov5/output_video.avi"
+VIDEO_PATH = "source_video_feed.avi"
 MODEL_PATH = "yolov5/runs/train/exp/weights/best.pt"
 CONF_THRES = 0.20      # keep moderate; lower to show more raw detections
 NMS_IOU = 0.45
